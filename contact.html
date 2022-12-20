@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap-CSS -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/stijl.css">
+<title>ContactFormulier</title>
+</head>
+    <body class="d-flex h-100 text-center text-white bg-dark">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+        <div>
+        <h3 class="float-md-start mb-0">Welkom op mijn pagina</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="overmij.html">Over mij</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+        </div>
+        </header>
+        <main class="px-3">
+        </main>
+        <div class="container-sm">
+            <h1>Vul hier uw gegevens in</h1>
+                <form id="contactform"
+                action="https://formspree.io/f/xpzeazbd"  method="post">
+                <input type="text" name="name" placeholder="Uw Voornaam">
+                <input type="text" name="Achternaam" placeholder="Uw Achternaam">
+                <input type="text" name="Woonplaats" placeholder="Uw Postcode en Woonplaats">
+                <input type="number" name="Leeftijd" placeholder="Uw leeftijd">
+                <input type="email" name="email" placeholder="Uw email adres">
+                <textarea placeholder="Uw Bericht"></textarea><br><br>
+                <input type="text" name="_gotcha" style="display:none">
+                <input type="submit" value="Verzend">
+                </form>
+            </div>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+crossorigin="anonymous">
+</script>
+<div class="full"></div>
+<footer><u><i>Copyright &copy; Rien van Diermen</i></u></footer>
+</div>
+</body>
+</html>
